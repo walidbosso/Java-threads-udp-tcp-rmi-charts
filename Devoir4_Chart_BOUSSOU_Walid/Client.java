@@ -17,7 +17,9 @@ public class Client implements Sensor {
       return value ;
     }
     public static void main(String[] args) throws Exception{
-        String fileName = "C:\\Users\\packardbell\\Desktop\\Data_temp.csv";
+        // Assuming your current working directory is the project directory
+        String relativePath = "src/main/resources/Data_temp.csv";
+        String fileName = System.getProperty("user.dir") + "/" + relativePath;
         File file = new File(fileName);
         PrintWriter pw = new PrintWriter(fileName);
         for(int i=0;i<5;i++){

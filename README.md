@@ -44,7 +44,7 @@ If you'd like to contribute to the project, please follow these steps:
 
 ## Issues
 
-If you encounter any issues or have suggestions, please open an issue on the [Issues](https://github.com/walidbosso/Nodejs_playground/issues) page.
+If you encounter any issues or have suggestions, please open an issue on the [Issues](https://github.com/walidbosso/Java-threads-udp-tcp-rmi-charts/issues) page.
 
 Thank you for exploring ! 🚀
 
